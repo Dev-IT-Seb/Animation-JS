@@ -9,12 +9,55 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <h1>Exercice GSAP</h1>
-        <button id="btn">Lancer l'animation</button>
-
-        <div class="box">toto</div>
-
-
+        <section class="gsap">
+            <h1 id="title">GSAP</h1>
+            <button id="btn">Lancer l'animation</button>
+            <div class="box">TOTO</div>
+            <div class="card-carre">
+                <p>Je suis un carré !</p>
+            </div>
+            <button id="showCard">Afficher</button>
+        </section>
+        <!--- POKEMON -->
+        <section class="pokemon">
+            <div class="container">
+                <div class="silhouette" id="Bulbasaur"><div class="cover"></div></div>
+                <div class="card">
+                    <h1>SEB</h1>
+                    <div class="information" id="BulbasaurInfo">
+                    <h2 id="BulbasaurName">Bulbasaur</h2>
+                    <p>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.</p>
+                    <p class="type">Type: <button id="grass">Grass</button> <button id=poison>Poison</button></p>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="container">
+                <div class="silhouette" id="Charmander"><div class="cover"></div></div>
+                <div class="card">
+                    <h1>AB</h1>
+                    <div class="information" id="CharmanderInfo">
+                    <h2 id="CharmanderName">Charmander</h2>
+                    <p>The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.</p> 
+                    <p class="type">Type: <button id="fire">Fire</button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="container">
+                <div class="silhouette" id="Squirtle"><div class="cover"></div></div>
+                <div class="card">
+                    <h1>STIEN</h1>
+                    <div class="information" id="SquirtleInfo">
+                    <h2 id="SquirtleName">Squirtle</h2>
+                    <p>Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.</p>
+                    <p class="type">Type: <button id="water">Water</button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="instructions">Pokemons</div>
+        </section>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script src="./script.js"></script>
