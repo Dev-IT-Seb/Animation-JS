@@ -8,6 +8,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration
 // https://developer.mozilla.org/fr/docs/Web/CSS/transition
 // https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+//
 //-------------//
 //--- 1ER ANIMATION 
 document.getElementById("btn").addEventListener("click", function(){
@@ -44,8 +45,7 @@ document.getElementById("showCard").addEventListener("click", function(){
     )
 });
 //---------------------------------------------------------------------//
-
-
+//--- PARTIE POKEMON
 gsap.set(".information", { yPercent: 100 });
 
 gsap.utils.toArray(".container").forEach((container) => {
@@ -58,7 +58,4 @@ gsap.utils.toArray(".container").forEach((container) => {
   container.addEventListener("mouseenter", () => tl.timeScale(1).play());
   container.addEventListener("mouseleave", () => tl.timeScale(3).reverse());
 });
-
-
-
 //---------------------------------------------------------------------//
