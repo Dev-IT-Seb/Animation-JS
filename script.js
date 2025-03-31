@@ -4,7 +4,10 @@
 // Selecteurs //
 //gsap.from()    Anime DEPUIS l’état spécifié vers son état CSS actuel (l’état initial du HTML/CSS).
 //gsap.to()    Anime VERS l’état spécifié à partir de son état CSS initial.
-//bounce.inout
+// gsap.fromTo() : animation avec départ et arrivée personnalisés
+// https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration
+// https://developer.mozilla.org/fr/docs/Web/CSS/transition
+// https://developer.mozilla.org/en-US/docs/Web/CSS/animation
 //-------------//
 //--- 1ER ANIMATION 
 document.getElementById("btn").addEventListener("click", function(){
