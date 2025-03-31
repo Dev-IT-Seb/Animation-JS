@@ -11,8 +11,16 @@
 /* -------------------------------------------------- */
 /* ------------------ HOME PAGE-----------------------*/
 /* -------------------------------------------------- */
-
-
+/* BOX */
+.box{
+    margin-top: 5rem;
+    width: 200px;
+    height: 200px;
+    background-color: #ff7f7f;
+    opacity: 0;
+    transform: translate(50px);
+    text-align: center;
+}
 
 
 
